@@ -23,14 +23,9 @@
 		jQuery(window).scroll(function(){
 			if ( jQuery(document).scrollTop() < 1000 ) {
 				jQuery('.nav2').removeClass('hidden', 1000);
-			} else {
-				jQuery('.nav2').addClass('hidden', 1000);
-			}
-		});
-		jQuery(window).scroll(function(){
-			if ( jQuery(document).scrollTop() < 1000 ) {
 				jQuery('.nav').removeClass('hidden2', 1000);
 			} else {
+				jQuery('.nav2').addClass('hidden', 1000);
 				jQuery('.nav').addClass('hidden2', 1000);
 			}
 		});
